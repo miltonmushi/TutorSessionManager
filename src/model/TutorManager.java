@@ -119,7 +119,7 @@ public class TutorManager {
 
     // load all data from file
     public void loadData() {
-        File file = new File("database.txt");
+        File file = new File("src/database.txt");
 
         if (!file.exists())
             return;
@@ -158,7 +158,7 @@ public class TutorManager {
 
     // save all data to file
     public void saveData() {
-        try (PrintWriter pw = new PrintWriter(new FileWriter("database.txt"))) {
+        try (PrintWriter pw = new PrintWriter(new FileWriter("src/database.txt"))) {
             for (Session s : sessions) {
                 pw.println(
                     s.getId() + ", " +
