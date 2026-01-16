@@ -1,6 +1,6 @@
 # Tutor Session Management System
 
-A Java console application that manages students and tutoring sessions using clean **Object-Oriented Programming*** principles and the **MVC (Model-View-Controller)** architecture.
+A Java console application that manages students and tutoring sessions using clean **Object-Oriented Programming** principles and the **MVC (Model-View-Controller)** architecture.
 
 ## 📌 Project Overview
 The Tutor Session Management System allows a tutor to:
