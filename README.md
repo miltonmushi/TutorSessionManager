@@ -46,7 +46,8 @@ TutorSessionManager/
  │   │   └── TutorManager.java
  │   ├── view/
  │   │   └── ConsoleView.java
- │   └── Main.java
+ │   ├── Main.java
+ │   └── database.txt  <-- auto-created when program runs
  └── README.md
 ```
 
@@ -58,19 +59,19 @@ TutorSessionManager/
 
 ---
 
-## ▶️ How to Run
+## ▶️ How to Compile and Run (Windows)
 
-From the project root directory:
-
-### Compile
-```
-javac src/**/*.java
+### Compile all Java files
+```bash
+javac src\controller\*.java src\model\*.java src\view\*.java src\Main.java
 ```
 
-### Run
-```
+### Run the program
+```bash
 java -cp src Main
 ```
+
+> The program will automatically create `src/database.txt` the first time you add a session and exit.
 
 ---
 
@@ -97,5 +98,6 @@ java -cp src Main
 ---
 
 ## 👨‍💻 Author
-Milton Mushi
+**Milton Mushi**
+
 Computer Science Graduate | Java Developer
